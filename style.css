@@ -29,6 +29,7 @@ ul{
     color: #ffffff;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .awesome,
@@ -57,6 +58,9 @@ a,
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .action{
@@ -65,6 +69,9 @@ a,
 
 .quote{
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .inspiring {
