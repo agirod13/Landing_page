@@ -1,8 +1,36 @@
+html,
+body{
+    height: 100%;
+}
+
 body {
     margin: 0;
     min-height: 100vh;
     display: flex;
+    justify-content: center;
     flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+}
+
+.logo{
+    font-size: 24px;
+}
+
+.links{
+
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
 }
 
 a {
@@ -10,14 +38,8 @@ a {
     color: #1f2937 ;
 }
 
-ul{
-    list-style-type: none;
-}
-
-.header,
-.footer,
-.praise {
-    background-color: #1f2937;
+.praise{
+    padding: 8px;
 }
 
 .awesome{
@@ -25,26 +47,8 @@ ul{
     font-weight: bolder;
 }
 
-.footer{
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.awesome,
-.logo {
-    color: #f9faf8;
-}
-
-.logo{
-    font-size: 24px;
-}
-
-a,
 .sub{
-    font-size: 18px;
-    color: #a4a6aa;
+
 }
 
 .sign_up {
@@ -52,6 +56,11 @@ a,
     color: #ffffff;
     border-radius: 4px;
     border: 1px solid #ffffff;
+    padding: 8px 16px;
+}
+
+.information{
+    padding: 8px;  
 }
 
 .random{
@@ -63,22 +72,136 @@ a,
     align-items: center;
 }
 
-.action{
-    background-color: #3882f6;
+.imcontainer{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info{
+    padding: 8px;
 }
 
 .quote{
     background-color: #e5e7eb;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
+    padding: 8px;
+    
+    
 }
 
 .inspiring {
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
+    width: 800px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 16px;    
 }
+
+.author{
+    display: flex;
+    align-items: right;
+}
+
+.blue{
+    display: flex;
+    justify-content: center;
+    padding: 64px;
+}
+
+.action {
+    background: white;
+    width: 900px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 16px;
+    padding: 16px;
+    background-color: #3882f6;    
+  }
+
+.card{
+    display: flex;
+    justify-content: space-between;
+}
+.call {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+.click {
+    margin-bottom: 16px;
+  }
+  
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+  }
+  
+  button.sign_up {
+    background-color: #3882f6;
+    color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+  }
+
+.footer{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+.copyright {
+
+}
+
+.awesome,
+.logo {
+    color: #f9faf8;
+}
+
+.header,
+.footer,
+.praise {
+    background-color: #1f2937;
+}
+
+a,
+.sub{
+    font-size: 18px;
+    color: #a4a6aa;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .author,
 .call{
@@ -89,4 +212,8 @@ a,
 .call,
 .click{
     color: #ffffff;
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
+

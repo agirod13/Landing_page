@@ -1,0 +1,161 @@
+html{
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+    background-color: #1f2937;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+a{
+    text-decoration: none;
+    color: #1f2937;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #1f2937;
+    padding: 100px;
+}
+
+.left{
+    width: 400px;
+}
+
+.awesome{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.sub{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 8px;
+}
+
+button{
+    background-color: #3882f6;
+    color: #ffffff;
+    border-radius: 8px;
+    font-weight: bolder;
+    padding: 8px 28px;
+    border: 0px solid #ffffff;
+}
+
+.placeholder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #7c7d80;
+    height: 200px;
+    width: 450px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    color: #ffffff;
+}
+
+.two{
+    
+    border: 1px solid #5432cd;}
+
+.random{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding: 24px;
+    border: 1px solid limegreen;}
+
+.imcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 24px 96px;
+    gap: 20px;
+    border: 1px solid #cd3254;}
+
+img {
+    height: 100px;
+    width: 100px;
+    border: 1px solid limegreen;
+}
+
+.text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 12px;
+    border: 1px solid limegreen;
+}
+
+.three{
+    border: 1px solid limegreen;}
+
+.inspiring{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    border: 1px solid limegreen;
+}
+
+.author{
+    border: 1px solid limegreen;}
+
+.four{
+    border: 1px solid limegreen;}
+
+.action{
+    
+    border: 1px solid limegreen;}
+
+.card{
+    background-color: #3882f6;
+    border: 1px solid limegreen;}
+
+.call{
+    border: 1px solid limegreen;}
+
+.click{
+    border: 1px solid limegreen;}
+
+button.sign2{
+    border: 1px solid limegreen; 
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    color: #E5E7EB;
+    background-color: #1f2937;
+}
